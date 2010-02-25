@@ -11,6 +11,9 @@
     <body>
 
         <div id="listEmail">
+            <ul>
+                
+            </ul>
         </div>
 
         <div id="formularioCadastro">
@@ -26,7 +29,10 @@
                 <input type="submit" value="OK" />
             </p>
         </div>
-    
+
+        <div id="foot">
+            <p>Este mini projeto se encontra no GitHub <a href="http://github.com/AlexandreSantos/email" targer="new">http://github.com/AlexandreSantos/email</a></p>
+        </div>
     </body>
 </html>
 
