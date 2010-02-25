@@ -78,19 +78,9 @@ if($act == "select"){
             //$arrJSON['id'][$i] = "fazendo";
         }
 
-       //echo "<pre>";
-
-       /** while($row = $pdostmt->fetch(PDO::FETCH_ASSOC, PDO::FETCH_ORI_NEXT)){
-            $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
-            echo $data;
-       }**/
-       echo "<hr />";
        $arrResult = $pdostmt->fetchAll();
        echo json_encode($arrResult);
-       //echo "</pre>";
 
-       //print_r(json_encode($arrJSON));
-       
 
     }catch (PDOException $e){
         echo "ERro!: " . $e->getMessage();
