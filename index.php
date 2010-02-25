@@ -2,12 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <title>Cadasrte seu e-mail</title>
+        <title>Cadastre seu e-mail</title>
         
         <!-- Includes arquivos externos -->
         <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
     </head>
     <body>
+
+        <div id="listEmail">
+        </div>
 
         <div id="formularioCadastro">
             <p>
