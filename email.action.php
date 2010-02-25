@@ -16,9 +16,9 @@
   */
 
 // Cria a conexão com o banco de dados antes de tudo
-$dns = "pgsql:host=pgsql.diariodecodigos.info;port=5432";
-$user = "diariodecodigos1";
-$passwd = "d25m090";
+$dns = "";
+$user = "1";
+$passwd = "";
 
 try{
     $pdopg = new PDO($dns, $user, $passwd,  array(PDO::ATTR_PERSISTENT => true));
