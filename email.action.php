@@ -74,10 +74,6 @@ if($act == "select"){
 
         //echo $pdostmt->rowCount();
 
-        for($i=0; $i<$pdostmt->rowCount(); $i++){
-            //$arrJSON['id'][$i] = "fazendo";
-        }
-
        $arrResult = $pdostmt->fetchAll();
        echo json_encode($arrResult);
 
