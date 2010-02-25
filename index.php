@@ -31,7 +31,7 @@
         </div>
 
         <div id="foot">
-            <p>Este mini projeto se encontra no GitHub <a href="http://github.com/AlexandreSantos/email" targer="new">http://github.com/AlexandreSantos/email</a></p>
+            <p>Este mini projeto se encontra no GitHub <a href="http://github.com/AlexandreSantos/email" target="new">http://github.com/AlexandreSantos/email</a></p>
         </div>
     </body>
 </html>
