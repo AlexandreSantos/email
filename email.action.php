@@ -72,7 +72,7 @@ if($act == "select"){
         $pdostmt = $pdopg->prepare("SELECT id, nome, email FROM email");
         $pdostmt->execute();
 
-        echo $pdostmt->rowCount();
+        //echo $pdostmt->rowCount();
 
         for($i=0; $i<$pdostmt->rowCount(); $i++){
             //$arrJSON['id'][$i] = "fazendo";
