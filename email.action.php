@@ -17,7 +17,7 @@
 
 // Cria a conexão com o banco de dados antes de tudo
 $dns = "";
-$user = "1";
+$user = "";
 $passwd = "";
 
 try{
@@ -74,7 +74,7 @@ if($act == "select"){
 
         //echo $pdostmt->rowCount();
 
-       $arrResult = $pdostmt->fetchAll();
+       $arrResult = $pdostmt->fetchAll(PDO::FETCH_ASSOC);
        echo json_encode($arrResult);
 
 

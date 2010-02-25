@@ -5,7 +5,9 @@
 $(document).ready(function(){
     
     $.getJSON("email.action.php", {act: 'select'}, function(data){
-        $('#listEmail').text(data[3].id + " - " + data[3].nome + " - " + data[3].email);
+        $.each(data, function(i){
+            $('#listEmail').append(i + " -> " + data[i].id + " - " + data[i].nome + " - " + data[i].email + "<br />");
+        }) // END > $.each()
     }) // END > $.getJSON
     
 }); // END > document.ready()
